@@ -89,6 +89,55 @@ main .main-input input {
   height: 40px;
   border: none;
   outline: none;
-  background-color: #202124;
   color: #ffff;
+  background-color: #202124;
+}
+
+main .main-input-container:hover {
+  background-color: #303134;
+  box-shadow: 0 1px 6px 0 #171717;
+  border-color: transparent;
+}
+
+main input:hover {
+  background-color: #303134;
+  /* box-shadow: 0 1px 6px 0 #171717;
+  border-color: transparent; */
+}
+
+/* main icons */
+
+main .main-input .search-icon {
+  background-image: url(../img/icons/lupa.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  color: #9aa0a6;
+  width: 24px;
+  height: 24px;
+  margin-left: 12px;
+}
+
+main .main-input .micro-icon {
+  background-image: url(../img/icons/micro.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+main .main-input .camera-icon {
+  background-image: url(../img/icons/camera.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+main .main-input a {
+  margin-right: 10px;
 }
