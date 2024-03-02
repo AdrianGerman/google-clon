@@ -4,6 +4,7 @@ body {
   padding: 0;
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
 a {
@@ -91,6 +92,8 @@ main .main-input input {
   outline: none;
   color: #ffff;
   background-color: #202124;
+  margin-left: 14px;
+  font-size: 16px;
 }
 
 main .main-input-container:hover {
@@ -99,10 +102,10 @@ main .main-input-container:hover {
   border-color: transparent;
 }
 
-main input:hover {
+main .main-input-container:hover input {
   background-color: #303134;
-  /* box-shadow: 0 1px 6px 0 #171717;
-  border-color: transparent; */
+  /* box-shadow: 0 1px 6px 0 #171717; */
+  /* border-color: transparent; */
 }
 
 /* main icons */
@@ -140,4 +143,34 @@ main .main-input .camera-icon {
 
 main .main-input a {
   margin-right: 10px;
+}
+
+/* main buttons */
+
+main .main-buttons {
+  width: 530px;
+  margin: 0 auto;
+}
+
+main .main-buttons div {
+  display: inline-block;
+}
+
+main .main-buttons button {
+  height: 36px;
+  background-color: #303134;
+  border: 0;
+  font-size: 14px;
+  color: #e8eaed;
+  border-radius: 5px;
+  padding: 0 15px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+main .main-buttons button:hover {
+  box-shadow: 0 1px 3px rgba(23, 23, 23, 0.24);
+  background-color: #303134;
+  border: 1px solid #5f6368;
+  color: #e8eaed;
 }
